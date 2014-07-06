@@ -24,7 +24,7 @@ _Add Player Controls_
   2. add `Movement_Player.cs` to your player sprite
   3.  remember to click the `is Trigger` option
 
-:sparkles: Try your game out so far. :sparkles:
+:sparkles: **Try your game out so far.** :sparkles:
 
 
 ## Procedure for making triggers
