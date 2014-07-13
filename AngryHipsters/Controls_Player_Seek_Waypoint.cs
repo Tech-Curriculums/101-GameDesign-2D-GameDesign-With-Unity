@@ -15,7 +15,7 @@ public class Controls : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Begin) {
+		if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
 		
 		//first we get the touch position (2D vector)
 		    touchPositionTarget = Input.GetTouch(0).position;
