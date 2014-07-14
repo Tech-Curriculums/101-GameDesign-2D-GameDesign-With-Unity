@@ -29,7 +29,7 @@ _Add Player Controls_
 
 ## Procedure for making triggers
 
-sometimes you want stuff to happen.
+sometimes you want to make stuff happen.
 
 
 #### Collisions
@@ -39,3 +39,17 @@ Afterwards place the `Trigger_Collision_Audio.cs` on the object your player walk
 and you may either have it play the object's audio (add component -> audio -> then just add the sound file we have in the assets folder), or anything else you can wish.
 
 REMEMBER to add the collider and to toggle the `isTrigger` box.
+
+### Having Other Objects React
+
+You can even have other objects react to the collision (or any event), by calling other components.
+
+## Details
+
+You will need to declare the variable to have scope within the class.
+
+But you will need to to initialize the variable inside the "Start" function (go ahead and type one in if it's not there), since nothing exists at first, and Start is the first function that is called after the environment is created.
+
+
+
+http://unity3d.com/learn/tutorials/modules/beginner/scripting/getcomponent
